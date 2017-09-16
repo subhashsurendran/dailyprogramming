@@ -1,0 +1,12 @@
+Mergesort Flow chart:-
+
+Next Step: Input the array you want to sort
+Next Step: Call the mergeSort function of the MergeSort Implementation class with the input array, the 0th index and the max index of the array
+Next Step: The mergeSort function will recursively call itself by splitting the array into two by getting the middle element 
+            by using (leftIndex+maxindex)/2 formula. 
+Next Step: if(leftIndex<RightIndex), call the mergeSort function with input as (Originalarray, leftEnd, middle) then call the mergeSort
+            function with input as ((Originalarray, middle+1, rightEnd)) and then finally call the mergeFunction with input as (Originalarray, leftEnd, m, rightEnd)
+Next Step: MergeFunction will create two temporary arrays. First temp array will store values of the leftEnd to middle and the second 
+           temporary array will store values from middle+1 to rightEnd.
+Next Step: Sort the arrays using the normal less than comparator.
+            
