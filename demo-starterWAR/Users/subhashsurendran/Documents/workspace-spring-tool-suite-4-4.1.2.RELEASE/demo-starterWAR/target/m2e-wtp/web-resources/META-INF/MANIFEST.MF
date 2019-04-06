@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: subhashsurendran
+Build-Jdk: 12
+Implementation-Title: demo-starterWAR
+Implementation-Version: 1.0.0-SNAPSHOT
+Implementation-Vendor-Id: com.example
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/demo-starterWAR
+Created-By: Maven Integration for Eclipse
+
