@@ -1,0 +1,8 @@
+This is a sample project which explains how to introduce interceptors to your Spring boot application. The steps are given below:-
+
+1. Write an interceptor class which implements the HandlerInterceptor interface.
+  a. Override the preHandle, postHandle and afterCompletion methods.
+2. Register the interceptor class by implementing the WebMvcConfigurer interface. Override the addInterceptor method and add
+your interceptor to the InterfaceRegistry.
+
+The code snippet is inside.
